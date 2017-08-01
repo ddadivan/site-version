@@ -33,6 +33,7 @@ time, mark, audio, video {
 }
 /*Header*/
 .header{
+	padding:21px 0px;
 	background:#27ae60;
 }
 .logo{
