@@ -21,6 +21,7 @@ time, mark, audio, video {
 body{
 	font:14px/1.4 Arial, Helvetica,  sans-serif;
 	color:#727274;
+	background:#ecf0f1;
 }
 .wrapper{
 }
@@ -80,3 +81,31 @@ body{
 	color:#000;
 }
 /*end header*/
+/*top-banner*/
+.top-banner{
+	padding:130px 0px 80px;
+	background:#27ae60;
+}
+h1{
+	text-align:center;
+	text-transform:uppercase;
+	font-size:30px;
+	color:#fff;
+}
+.center{
+	padding-top:70px;
+}
+.btn{
+	display:block;
+	width:234px;
+	height:46px;
+	margin:0 auto;
+	padding:15px 0px;
+	box-sizing:border-box;
+	color:#fff;
+	text-align:center;
+	text-decoration:none;
+	border-radius:5px;
+	background:#2ecc71;
+}
+/*end top-banner*/
