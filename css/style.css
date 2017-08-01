@@ -19,13 +19,12 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 .wrapper{
-	width:941px;
 	margin:0 auto;
 }
 .content{
 	width:824px;
 	margin:0 auto;
-	padding:21px 60px;
+	padding:0px 18px;
 }
 .clear:after{
 	display:block;
@@ -38,6 +37,11 @@ time, mark, audio, video {
 }
 .logo{
 	float:left;
+	display:inline-block;
+}
+.logo img{
+	display:block;
+	max-width:100%;
 }
 .nav{
 	float: right;
@@ -50,7 +54,6 @@ time, mark, audio, video {
 .nav li{
 	display:inline-block;
 	padding-top:17px;
-	vertical-align:top;
 }
 .nav a{
 	display:block;
