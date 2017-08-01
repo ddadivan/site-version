@@ -46,19 +46,21 @@ time, mark, audio, video {
 }
 .nav{
 	float: right;
+	padding-top:17px;
 	font-size:0px;
 	list-style: none;
 }
 .nav *{
 	font-size:14px;
 }
+.nav li + li{
+	margin-left:20px;
+}
 .nav li{
 	display:inline-block;
-	padding-top:17px;
 }
 .nav a{
 	display:block;
-	margin-left:20px;
 	text-decoration:none;
 	color:#fff;
 }
