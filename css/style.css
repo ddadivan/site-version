@@ -19,7 +19,6 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 .wrapper{
-	margin:0 auto;
 }
 .content{
 	width:824px;
@@ -39,14 +38,16 @@ time, mark, audio, video {
 .logo{
 	float:left;
 	display:inline-block;
+	vertical-align:top;
 }
 .logo img{
 	display:block;
 	max-width:100%;
+	margin:0 auto;
 }
 .nav{
-	float: right;
-	padding-top:17px;
+	float:right;
+	padding-top:12px;
 	font-size:0px;
 	list-style: none;
 }
@@ -54,14 +55,24 @@ time, mark, audio, video {
 	font-size:14px;
 }
 .nav li + li{
-	margin-left:20px;
+	margin-left:16px;
 }
 .nav li{
 	display:inline-block;
+	vertical-align:top;
 }
 .nav a{
 	display:block;
 	text-decoration:none;
 	color:#fff;
+	line-height:1.4;
+	-moz-transition:all 0.2s ease-out;
+    -o-transition:all 0.2s ease-out;
+    -webkit-transition:all 0.2s ease-out;
+    transition:all 0.2s ease-out;
+}
+.nav a:hover, 
+.nav a.active{
+	color:#000;
 }
 /*end header*/
