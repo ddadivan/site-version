@@ -23,17 +23,25 @@ body{
 	color:#727274;
 	background:#ecf0f1;
 }
+.clear:after{
+	display:block;
+	content:"";
+	clear:both;
+}
+.center{
+	text-align:center;
+}
+h1{
+	text-transform:uppercase;
+	font-size:30px;
+	color:#fff;
+}
 .wrapper{
 }
 .content{
 	width:824px;
 	margin:0 auto;
 	padding:0px 18px;
-}
-.clear:after{
-	display:block;
-	content:"";
-	clear:both;
 }
 /*Header*/
 .header{
@@ -86,22 +94,13 @@ body{
 	padding:130px 0px 80px;
 	background:#27ae60;
 }
-h1{
-	text-align:center;
-	text-transform:uppercase;
-	font-size:30px;
-	color:#fff;
-}
-.center{
-	padding-top:70px;
+.top-banner h1{
+	margin-bottom:70px;
 }
 .btn{
-	display:block;
-	width:234px;
-	height:46px;
-	margin:0 auto;
-	padding:15px 0px;
-	box-sizing:border-box;
+	display:inline-block;
+	vertical-align:top;
+	padding:13px 75px;
 	color:#fff;
 	text-align:center;
 	text-decoration:none;
