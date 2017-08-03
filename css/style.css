@@ -38,6 +38,7 @@ h1{
 	font-weight:400;
 }
 .wrapper{
+
 }
 .content{
 	width:824px;
@@ -112,3 +113,79 @@ h1{
 	background:#2ecc71;
 }
 /*end top-banner*/
+/*content-wrap*/
+.content-wrap{
+	padding:85px 0px 80px 0px;
+}
+.content-wrap h3{
+	margin-bottom:70px;
+	font-size:24.7pt;
+}
+.content-wrap p{
+	font-size:11.94pt;
+}
+.content-wrap .center{
+	margin-bottom:90px;
+}
+/*end content-wrap*/
+/*work-foto*/
+.work-foto{
+	text-align:center;
+	margin-bottom:30px;
+}
+.work-foto span{
+	font-size:25pt;
+	color:#b9c1c2;
+}
+/*end work-foto*/
+.gallery{
+	margin-bottom:57px;
+}
+.gallery a{
+	float:left;
+	display:block;
+}
+.gallery a:nth-child(even){
+	margin:0px 0 21px 21px;
+}
+.content-wrap .center{
+	margin-bottom:140px;
+}
+.content-wrap .center a{
+	padding:11px 80px;
+	background:#ecf0f1;
+	color:#7e8c99;
+	font-size:12.94pt;
+	border:2px solid #989a9a;
+	box-sizing:border-box;
+}
+/*info*/
+.info h4{
+	font-size:25pt;
+	color:#7f8c8d;
+}
+.info h4{
+	margin-bottom:50px;
+	text-align:center;
+}
+.company{
+	margin:0 auto;
+}
+.company a{
+	display:block;
+	float:left;
+}
+.company a + a{
+	margin-left:80px;
+}
+/*end info*/
+/*footer*/
+.footer{
+  height: 85px;
+  background:#444;
+}
+.footer span{
+	text-align:right;
+	color:#989898;
+}
+/*end footer*/
