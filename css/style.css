@@ -18,6 +18,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+html,body{
+	height:100%;
+}
 body{
 	font:14px/1.4 Arial, Helvetica,  sans-serif;
 	color:#727274;
@@ -38,8 +41,8 @@ h1{
 	font-weight:400;
 }
 .wrapper{
-	position:relative;
-	min-height:100%;
+	height:calc(100%-80px);
+	margin-bottom:130px;
 }
 .content{
 	width:824px;
@@ -139,18 +142,21 @@ h1{
 	color:#b9c1c2;
 }
 /*end work-foto*/
+.gallery-wrapper{
+	padding-bottom:140px;
+}
 .gallery{
-	margin-bottom:57px;
+	padding-bottom:57px;
+}
+.gallery li{
+	display:inline-block;
+	vertical-align:top;
+}
+.gallery li:nth-child(2n-2){
+	margin:0px 0px 21px 21px;
 }
 .gallery a{
-	float:left;
 	display:block;
-}
-.gallery a:nth-child(even){
-	margin:0px 0 21px 21px;
-}
-.gallery-btn{
-	margin-bottom:140px;
 }
 .gallery-btn a{
 	padding:11px 80px;
@@ -170,7 +176,7 @@ h1{
 	text-align:center;
 }
 .logos-wrapper{
-	margin-bottom:85px;
+	margin-bottom:80px;
 }
 .company{
 	margin:0 auto;
@@ -185,8 +191,7 @@ h1{
 /*end info*/
 /*footer*/
 .footer{
-	padding-top:45px;
- 	height: 85px;
+	padding:40px 0px;
  	background:#444;
 }
 .footer span{
