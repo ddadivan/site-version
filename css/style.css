@@ -38,7 +38,8 @@ h1{
 	font-weight:400;
 }
 .wrapper{
-
+	position:relative;
+	min-height:100%;
 }
 .content{
 	width:824px;
@@ -148,10 +149,10 @@ h1{
 .gallery a:nth-child(even){
 	margin:0px 0 21px 21px;
 }
-.content-wrap .center{
+.gallery-btn{
 	margin-bottom:140px;
 }
-.content-wrap .center a{
+.gallery-btn a{
 	padding:11px 80px;
 	background:#ecf0f1;
 	color:#7e8c99;
@@ -168,6 +169,9 @@ h1{
 	margin-bottom:50px;
 	text-align:center;
 }
+.logos-wrapper{
+	margin-bottom:85px;
+}
 .company{
 	margin:0 auto;
 }
@@ -181,11 +185,21 @@ h1{
 /*end info*/
 /*footer*/
 .footer{
-  height: 85px;
-  background:#444;
+	padding-top:45px;
+ 	height: 85px;
+ 	background:#444;
 }
 .footer span{
 	text-align:right;
 	color:#989898;
+}
+.footer li{
+	float:left;
+}
+.footer li + li{
+	margin-left:13px;
+}
+.footer .copy{
+	float:right;
 }
 /*end footer*/
